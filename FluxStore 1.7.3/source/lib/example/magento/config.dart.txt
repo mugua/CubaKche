@@ -1,0 +1,16 @@
+export 'config/advertise.dart';
+export 'config/general.dart';
+export 'config/onboarding.dart';
+export 'config/payments.dart';
+export 'config/products.dart';
+export 'config/smartchat.dart';
+
+/// Server config demo for WooCommerce
+/// Server config demo for Magento
+const serverConfig = {
+  "type": "magento",
+  "url": "http://magento2.mstore.io",
+  "accessToken": "7r5x3cae1dm3bcx6rbeyvnagxl6afxpo",
+  "blog": "http://demo.mstore.io",
+  "forgetPassword": "http://demo.mstore.io/wp-login.php?action=lostpassword"
+};

@@ -1,0 +1,326 @@
+[
+  {
+    "code": "TR01",
+    "name": "Adana"
+  },
+  {
+    "code": "TR02",
+    "name": "Adiyaman"
+  },
+  {
+    "code": "TR03",
+    "name": "Afyonkarahisar"
+  },
+  {
+    "code": "TR04",
+    "name": "Agri"
+  },
+  {
+    "code": "TR05",
+    "name": "Aksaray"
+  },
+  {
+    "code": "TR06",
+    "name": "Amasya"
+  },
+  {
+    "code": "TR07",
+    "name": "Ankara"
+  },
+  {
+      "code": "TR08",
+      "name": "Antalya"
+    },
+    {
+      "code": "TR09",
+      "name": "Ardahan"
+    },
+    {
+      "code": "TR10",
+      "name": "Artvin"
+    },
+    {
+      "code": "TR11",
+      "name": "Aydin"
+    },
+    {
+      "code": "TR12",
+      "name": "Balikesir"
+    },
+    {
+      "code": "TR13",
+      "name": "Bartin"
+    },
+  {
+    "code": "TR14",
+    "name": "Batman"
+  },
+  {
+    "code": "TR15",
+    "name": "Bayburt"
+  },
+  {
+    "code": "TR16",
+    "name": "Bilecik"
+  },
+  {
+    "code": "TR17",
+    "name": "Bingol"
+  },
+  {
+    "code": "TR18",
+    "name": "Bitlis"
+  },
+  {
+    "code": "TR19",
+    "name": "Bolu"
+  },
+  {
+    "code": "TR20",
+    "name": "Burdur"
+  },
+  {
+    "code": "TR21",
+    "name": "Bursa"
+  },
+  {
+    "code": "TR22",
+    "name": "Canakkale"
+  },
+  {
+    "code": "TR23",
+    "name": "Cankiri"
+  },
+  {
+    "code": "TR24",
+    "name": "Corum"
+  },
+  {
+    "code": "TR25",
+    "name": "Denizli"
+  },
+  {
+    "code": "TR26",
+    "name": "Diyarbakir"
+  },
+  {
+    "code": "TR27",
+    "name": "Duzce"
+  },
+  {
+    "code": "TR28",
+    "name": "Edirne"
+  },
+  {
+    "code": "TR29",
+    "name": "Elazig"
+  },
+  {
+    "code": "TR30",
+    "name": "Erzincan"
+  },
+  {
+    "code": "TR31",
+    "name": "Erzurum"
+  },
+  {
+    "code": "TR32",
+    "name": "Eskisehir"
+  },
+  {
+    "code": "TR33",
+    "name": "Gaziantep"
+  },
+  {
+    "code": "TR34",
+    "name": "Giresun"
+  },
+  {
+    "code": "TR35",
+    "name": "Gumushane"
+  },
+  {
+    "code": "TR36",
+    "name": "Hakkari"
+  },
+  {
+    "code": "TR37",
+    "name": "Hatay"
+  },
+  {
+    "code": "TR38",
+    "name": "Igdir"
+  },
+  {
+    "code": "TR39",
+    "name": "Isparta"
+  },
+  {
+    "code": "TR40",
+    "name": "Istanbul"
+  },
+  {
+    "code": "TR41",
+    "name": "Izmir"
+  },
+  {
+    "code": "TR42",
+    "name": "Kahramanmaras"
+  },
+  {
+    "code": "TR43",
+    "name": "Karabuk"
+  },
+  {
+    "code": "TR44",
+    "name": "Karaman"
+  },
+  {
+    "code": "TR45",
+    "name": "Kars"
+  },
+  {
+    "code": "TR46",
+    "name": "Kastamonu"
+  },
+  {
+    "code": "TR47",
+    "name": "Kayseri"
+  },
+  {
+    "code": "TR48",
+    "name": "Kilis"
+  },
+  {
+    "code": "TR49",
+    "name": "Kirikkale"
+  },
+  {
+    "code": "TR50",
+    "name": "Kirklareli"
+  },
+  {
+    "code": "TR51",
+    "name": "Kirsehir"
+  },
+  {
+    "code": "TR52",
+    "name": "Kocaeli"
+  },
+  {
+    "code": "TR53",
+    "name": "Konya"
+  },
+  {
+    "code": "TR54",
+    "name": "Kutahya"
+  },
+  {
+    "code": "TR55",
+    "name": "Malatya"
+  },
+  {
+    "code": "TR56",
+    "name": "Manisa"
+  },
+  {
+    "code": "TR57",
+    "name": "Mardin"
+  },
+  {
+    "code": "TR58",
+    "name": "Mersin"
+  },
+  {
+    "code": "TR59",
+    "name": "Mugla"
+  },
+  {
+    "code": "TR60",
+    "name": "Mus"
+  },
+  {
+    "code": "TR61",
+    "name": "Nevsehir"
+  },
+  {
+    "code": "TR62",
+    "name": "Nigde"
+  },
+  {
+    "code": "TR63",
+    "name": "Ordu"
+  },
+  {
+    "code": "TR64",
+    "name": "Osmaniye"
+  },
+  {
+    "code": "TR65",
+    "name": "Rize"
+  },
+  {
+    "code": "TR66",
+    "name": "Sakarya"
+  },
+  {
+    "code": "TR67",
+    "name": "Samsun"
+  },
+  {
+    "code": "TR68",
+    "name": "Sanliurfa"
+  },
+  {
+    "code": "TR69",
+    "name": "Siirt"
+  },
+  {
+    "code": "TR70",
+    "name": "Sinop"
+  },
+  {
+    "code": "TR71",
+    "name": "Sirnak"
+  },
+  {
+    "code": "TR72",
+    "name": "Sivas"
+  },
+  {
+    "code": "TR73",
+    "name": "Tekirdag"
+  },
+  {
+    "code": "TR74",
+    "name": "Tokat"
+  },
+  {
+    "code": "TR75",
+    "name": "Trabzon"
+  },
+  {
+    "code": "TR76",
+    "name": "Tunceli"
+  },
+  {
+    "code": "TR77",
+    "name": "Usak"
+  },
+  {
+    "code": "TR78",
+    "name": "Van"
+  },
+  {
+    "code": "TR79",
+    "name": "Yalova"
+  },
+  {
+    "code": "TR80",
+    "name": "Yozgat"
+  },
+  {
+    "code": "TR81",
+    "name": "Zonguldak"
+  }
+]

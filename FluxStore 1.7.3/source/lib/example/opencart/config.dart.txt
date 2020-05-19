@@ -1,0 +1,15 @@
+export 'config/advertise.dart';
+export 'config/general.dart';
+export 'config/onboarding.dart';
+export 'config/payments.dart';
+export 'config/products.dart';
+export 'config/smartchat.dart';
+
+/// Server config demo for opencart
+const serverConfig = {
+  "type": "opencart",
+  "url": "http://opencart-demo.mstore.io",
+  "blog": "http://listeo.inspireui.com",
+  "forgetPassword":
+  "http://opencart-demo.mstore.io/index.php?route=account/forgotten"
+};

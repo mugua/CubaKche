@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>941477630937-09emj060k3hab6qj6pb6logb9opeqa5b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.941477630937-09emj060k3hab6qj6pb6logb9opeqa5b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBc3pzBqoOFJR41Q21BSvRpp2TPECzKtJM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>941477630937</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.inspireui.mstore.flutter</string>
+	<key>PROJECT_ID</key>
+	<string>cubakche-36019</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cubakche-36019.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:941477630937:ios:4cc1d6d23ef29351f17fc8</string>
+	<key>DATABASE_URL</key>
+	<string>https://cubakche-36019.firebaseio.com</string>
+</dict>
+</plist>

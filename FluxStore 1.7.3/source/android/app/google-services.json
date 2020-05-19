@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "941477630937",
+    "firebase_url": "https://cubakche-36019.firebaseio.com",
+    "project_id": "cubakche-36019",
+    "storage_bucket": "cubakche-36019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941477630937:android:7c2bef3ea00ce830f17fc8",
+        "android_client_info": {
+          "package_name": "com.inspireui.fluxstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941477630937-638sjl1uagkke0kqhrq5e05hm5b1atk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWV-6qzqPqBkXmodTWNm9xHaw_KVEGx3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941477630937-638sjl1uagkke0kqhrq5e05hm5b1atk5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941477630937-09emj060k3hab6qj6pb6logb9opeqa5b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inspireui.mstore.flutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CubaKche</string>
+
+    <string name="facebook_app_id">734816963682083</string>
+    <string name="fb_login_protocol_scheme">fb734816963682083</string>
+
+    <string name="ak_client_token">0314e76011ea6c0be16c334469a2e5c1</string>
+    <string name="api_key">AIzaSyDnBpxFOfeG6P06nK97hMg01kEgX48JhLE</string>
+    <string name="admob_api">ca-app-pub-7432665165146018~2664444130</string>
+</resources>

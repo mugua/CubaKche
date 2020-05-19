@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">412823237422-4tr6lod82roms8nhmbv11gob5tmdatsi.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fluxstore-inspireui.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">412823237422</string>
+    <string name="google_api_key" translatable="false">AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg</string>
+    <string name="google_app_id" translatable="false">1:412823237422:android:ec0e0abee17e848c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg</string>
+    <string name="google_storage_bucket" translatable="false">fluxstore-inspireui.appspot.com</string>
+    <string name="project_id" translatable="false">fluxstore-inspireui</string>
+</resources>

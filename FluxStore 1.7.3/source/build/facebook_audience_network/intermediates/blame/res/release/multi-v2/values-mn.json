@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\src\\flutter\\version sin problemas\\FluxStore 1.7.3\\source\\build\\facebook_audience_network\\intermediates\\res\\merged\\release\\values-mn\\values-mn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\clean\\.gradle\\caches\\transforms-2\\files-2.1\\58462119e84aea02718b1204f299a039\\jetified-play-services-basement-11.0.4\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "208",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "208",
+                        "endOffsets": "309"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\clean\\.gradle\\caches\\transforms-2\\files-2.1\\5036879aa6a782169b4b563fe131b3af\\core-1.1.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "314",
+                        "endColumns": "100",
+                        "endOffsets": "410"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\src\\flutter\\version sin problemas\\FluxStore 1.7.3\\source\\build\\facebook_audience_network\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-mn\\values-mn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\clean\\.gradle\\caches\\transforms-2\\files-2.1\\58462119e84aea02718b1204f299a039\\jetified-play-services-basement-11.0.4\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "208",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "208",
+                        "endOffsets": "309"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\clean\\.gradle\\caches\\transforms-2\\files-2.1\\5036879aa6a782169b4b563fe131b3af\\core-1.1.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "314",
+                        "endColumns": "100",
+                        "endOffsets": "410"
+                    }
+                }
+            ]
+        }
+    ]
+}

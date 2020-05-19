@@ -1,0 +1,554 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inspireui.fluxstore"
+4    android:versionCode="7001"
+5    android:versionName="1.7.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:7:5-79
+14-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[:connectivity] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:5-76
+15-->[:connectivity] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[:firebase_analytics] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:26:22-107
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8e6270ac0205ca6e61ea394df426a7a9\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8e6270ac0205ca6e61ea394df426a7a9\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8e6270ac0205ca6e61ea394df426a7a9\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23    <!--
+24 io.flutter.app.FlutterApplication is an android.app.Application that
+25         calls FlutterMain.startInitialization(this); in its onCreate method.
+26         In most cases you can leave this as-is, but you if you want to provide
+27         additional functionality it is fine to subclass or reimplement
+28         FlutterApplication and put your custom class here.
+29    -->
+30    <application
+30-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:13:5-87:19
+31        android:name="io.flutter.app.FlutterApplication"
+31-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:14:9-57
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\5036879aa6a782169b4b563fe131b3af\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/launcher_icon"
+33-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:17:9-45
+34        android:label="Fluxstore"
+34-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:15:9-34
+35        android:supportsRtl="true"
+35-->[com.facebook.android:facebook-login:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ba23106ccb2a443334836da1349a7e8a\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+36        android:usesCleartextTraffic="true" >
+36-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:16:9-44
+37        <activity
+37-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:18:9-57:20
+38            android:name="com.inspireui.fluxstore.MainActivity"
+38-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:19:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:22:13-163
+40            android:hardwareAccelerated="true"
+40-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:23:13-47
+41            android:launchMode="singleTop"
+41-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:20:13-43
+42            android:theme="@style/LaunchTheme"
+42-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:21:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:24:13-55
+44
+45            <!--
+46                 This keeps the window background of the activity showing
+47                 until Flutter renders its first frame. It can be removed if
+48                 there is no splash screen (such as the default splash screen
+49                 defined in @style/LaunchTheme).
+50            -->
+51            <meta-data
+51-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:29:13-31:40
+52                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+52-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:30:17-82
+53                android:value="true" />
+53-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:31:17-37
+54            <meta-data
+54-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:32:13-33:74
+55                android:name="com.google.android.geo.API_KEY"
+55-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:32:24-69
+56                android:value="AIzaSyDnBpxFOfeG6P06nK97hMg01kEgX48JhLE" />
+56-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:33:17-72
+57
+58            <intent-filter>
+58-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:34:13-37:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:35:17-68
+59-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:35:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:36:17-76
+61-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:36:27-74
+62            </intent-filter>
+63            <intent-filter>
+63-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:38:13-41:29
+64                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+64-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:39:17-69
+64-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:39:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:40:17-76
+66-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:40:27-73
+67            </intent-filter>
+68
+69            <meta-data
+69-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:43:13-45:56
+70                android:name="default-url"
+70-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:44:17-43
+71                android:value="https://cubakche.com" />
+71-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:45:17-53
+72
+73            <intent-filter android:autoVerify="true" >
+73-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:46:13-56:29
+73-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:46:28-53
+74                <action android:name="android.intent.action.VIEW" />
+74-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:47:17-69
+74-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:47:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:40:17-76
+76-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:40:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:50:17-78
+77-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:50:27-75
+78
+79                <data
+79-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:52:17-54:52
+80                    android:host="inspireui.com"
+80-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:54:21-49
+81                    android:scheme="https" />
+81-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:53:21-43
+82                <data android:scheme="http" />
+82-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:52:17-54:52
+82-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:53:21-43
+83            </intent-filter>
+84        </activity>
+85
+86        <!-- Google map and Admod setup -->
+87        <meta-data
+87-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:32:13-33:74
+88            android:name="com.google.android.geo.API_KEY"
+88-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:32:24-69
+89            android:value="@string/api_key" />
+89-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:33:17-72
+90        <meta-data
+90-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:63:9-65:48
+91            android:name="com.google.android.gms.ads.APPLICATION_ID"
+91-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:64:13-69
+92            android:value="@string/admob_api" />
+92-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:65:13-46
+93
+94        <!-- Facebook Login configuration -->
+95        <meta-data
+95-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:68:9-69:54
+96            android:name="com.facebook.sdk.ApplicationId"
+96-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:68:20-65
+97            android:value="@string/facebook_app_id" />
+97-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:69:13-52
+98
+99        <activity
+99-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:71:9-76:15
+100            android:name="com.facebook.FacebookActivity"
+100-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:71:19-63
+101            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+101-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:72:13-113
+102            android:exported="true"
+102-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:75:13-36
+103            android:label="@string/app_name"
+103-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:74:13-45
+104            android:theme="@style/com_facebook_activity_theme" />
+104-->[com.facebook.android:facebook-common:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\4c9c2c276d8cd8e20e67a6574154118b\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+105        <activity
+105-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:77:9-86:20
+106            android:name="com.facebook.CustomTabActivity"
+106-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:78:13-58
+107            android:exported="true" >
+107-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:79:13-36
+108            <intent-filter>
+108-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:80:13-85:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:47:17-69
+109-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:47:25-66
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:40:17-76
+111-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:40:27-73
+112                <category android:name="android.intent.category.BROWSABLE" />
+112-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:50:17-78
+112-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:50:27-75
+113
+114                <data android:scheme="@string/fb_login_protocol_scheme" />
+114-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:52:17-54:52
+114-->C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\android\app\src\main\AndroidManifest.xml:53:21-43
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->[:url_launcher] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+118            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+118-->[:url_launcher] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+119            android:exported="false"
+119-->[:url_launcher] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+120            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+120-->[:url_launcher] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+121
+122        <service
+122-->[:firebase_database] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+123            android:name="com.google.firebase.components.ComponentDiscoveryService"
+123-->[:firebase_database] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:19.3.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8c1b12101d36a4b3ceeede1038b8a658\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+125            android:exported="false" >
+125-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+126            <meta-data
+126-->[:firebase_database] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+127                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+127-->[:firebase_database] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:10:17-127
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[:firebase_database] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+129            <meta-data
+129-->[:firebase_auth] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+130                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+130-->[:firebase_auth] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[:firebase_auth] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+132            <meta-data
+132-->[:firebase_core] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+133                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+133-->[:firebase_core] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[:firebase_core] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+135            <meta-data
+135-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-16:85
+136                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+136-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:17-127
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:17-82
+138            <meta-data
+138-->[:firebase_analytics] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+139-->[:firebase_analytics] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:14:17-127
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_analytics] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:15:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+142                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+142-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+144            <meta-data
+144-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\4e216296e287e5ecd1813212b3c37a07\play-services-measurement-api-17.0.0\AndroidManifest.xml:30:13-32:85
+145                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+145-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\4e216296e287e5ecd1813212b3c37a07\play-services-measurement-api-17.0.0\AndroidManifest.xml:31:17-139
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\4e216296e287e5ecd1813212b3c37a07\play-services-measurement-api-17.0.0\AndroidManifest.xml:32:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+148-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-database:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\3afba00c622308c6e33b8bc25fc8348b\jetified-firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+151                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+151-->[com.google.firebase:firebase-database:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\3afba00c622308c6e33b8bc25fc8348b\jetified-firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-database:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\3afba00c622308c6e33b8bc25fc8348b\jetified-firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+153        </service>
+154
+155        <provider
+155-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:9:9-18:20
+156            android:name="androidx.core.content.FileProvider"
+156-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:10:13-62
+157            android:authorities="com.inspireui.fluxstore.fileprovider"
+157-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:11:13-64
+158            android:exported="false"
+158-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:12:13-37
+159            android:grantUriPermissions="true" >
+159-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:13:13-47
+160            <meta-data
+160-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:15:13-17:53
+161                android:name="android.support.FILE_PROVIDER_PATHS"
+161-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:16:17-67
+162                android:resource="@xml/filepaths" />
+162-->[:flutter_webview_plugin] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:17:17-50
+163        </provider>
+164
+165        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+165-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+165-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:18-101
+166            <intent-filter>
+166-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+167                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+167-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-78
+167-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-75
+168            </intent-filter>
+169        </service>
+170
+171        <activity android:name="com.facebook.CustomTabMainActivity" />
+171-->[com.facebook.android:facebook-common:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\4c9c2c276d8cd8e20e67a6574154118b\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+171-->[com.facebook.android:facebook-common:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\4c9c2c276d8cd8e20e67a6574154118b\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+172        <activity
+172-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+173            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+173-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+174            android:excludeFromRecents="true"
+174-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+175            android:exported="true"
+175-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+176            android:launchMode="singleTask"
+176-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+177            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+177-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\ffdb242a5667b4c5cb8efc372bd3a3be\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+179        <!--
+180         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+181         with the application context. This config is merged in with the host app's manifest,
+182         but there can only be one provider with the same authority activated at any given
+183         point; so if the end user has two or more different apps that use Facebook SDK, only the
+184         first one will be able to use the provider. To work around this problem, we use the
+185         following placeholder in the authority to identify each host application as if it was
+186         a completely different provider.
+187        -->
+188        <provider
+188-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+189            android:name="com.facebook.internal.FacebookInitProvider"
+189-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+190            android:authorities="com.inspireui.fluxstore.FacebookInitProvider"
+190-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+191            android:exported="false" />
+191-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+192
+193        <receiver
+193-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+194            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+194-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+195            android:exported="false" >
+195-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+196            <intent-filter>
+196-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+197                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+197-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+197-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+198            </intent-filter>
+199        </receiver>
+200        <receiver
+200-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+201            android:name="com.facebook.CampaignTrackingReceiver"
+201-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+202            android:exported="true"
+202-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+203            android:permission="android.permission.INSTALL_PACKAGES" >
+203-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+204            <intent-filter>
+204-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+205                <action android:name="com.android.vending.INSTALL_REFERRER" />
+205-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+205-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+206            </intent-filter>
+207        </receiver>
+208        <!--
+209             FirebaseMessagingService performs security checks at runtime,
+210             but set to not exported to explicitly avoid allowing another app to call it.
+211        -->
+212        <service
+212-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6de52f44831db4ae8e4d1cc1017da412\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+213            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+213-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6de52f44831db4ae8e4d1cc1017da412\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+214            android:exported="false" >
+214-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6de52f44831db4ae8e4d1cc1017da412\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+215            <intent-filter android:priority="-500" >
+215-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+216                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+216-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-78
+216-->[:firebase_messaging] C:\src\flutter\version sin problemas\FluxStore 1.7.3\source\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-75
+217            </intent-filter>
+218        </service>
+219
+220        <receiver
+220-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+221            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+221-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+222            android:exported="true"
+222-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+223            android:permission="com.google.android.c2dm.permission.SEND" >
+223-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+224            <intent-filter>
+224-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+225                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+225-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+225-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\f0e6fcb745bd80f2a9b32175707829a9\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+226            </intent-filter>
+227        </receiver> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+228        <activity
+228-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:29:9-33:64
+229            android:name="com.google.android.gms.ads.AdActivity"
+229-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:30:13-65
+230            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+230-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:31:13-122
+231            android:exported="false"
+231-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:32:13-37
+232            android:theme="@android:style/Theme.Translucent" />
+232-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:33:13-61
+233
+234        <provider
+234-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:35:9-39:39
+235            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+235-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:36:13-76
+236            android:authorities="com.inspireui.fluxstore.mobileadsinitprovider"
+236-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:37:13-73
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:38:13-37
+238            android:initOrder="100" />
+238-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8de623ca09392ef9ff203645ae81dbe6\play-services-ads-lite-18.1.1\AndroidManifest.xml:39:13-36
+239
+240        <receiver
+240-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:29:9-33:20
+241            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+241-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:30:13-85
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:31:13-35
+243            android:exported="false" >
+243-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:32:13-37
+244        </receiver>
+245        <receiver
+245-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:34:9-42:20
+246            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+246-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:35:13-100
+247            android:enabled="true"
+247-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:36:13-35
+248            android:exported="true"
+248-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:37:13-36
+249            android:permission="android.permission.INSTALL_PACKAGES" >
+249-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:38:13-69
+250            <intent-filter>
+250-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+251                <action android:name="com.android.vending.INSTALL_REFERRER" />
+251-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+251-->[com.facebook.android:facebook-core:5.5.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\c6b1b53be7eb38422a5dea358c92565e\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+252            </intent-filter>
+253        </receiver>
+254
+255        <service
+255-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:44:9-47:40
+256            android:name="com.google.android.gms.measurement.AppMeasurementService"
+256-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:45:13-84
+257            android:enabled="true"
+257-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:46:13-35
+258            android:exported="false" />
+258-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:47:13-37
+259        <service
+259-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:48:9-52:72
+260            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+260-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:49:13-87
+261            android:enabled="true"
+261-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:50:13-35
+262            android:exported="false"
+262-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:51:13-37
+263            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+263-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\9569032eb6a7d9c8605901fa8a9edd37\play-services-measurement-17.0.0\AndroidManifest.xml:52:13-69
+264        <uses-library
+264-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8e6270ac0205ca6e61ea394df426a7a9\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+265            android:name="org.apache.http.legacy"
+265-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8e6270ac0205ca6e61ea394df426a7a9\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+266            android:required="false" />
+266-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8e6270ac0205ca6e61ea394df426a7a9\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+267
+268        <activity
+268-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:15:9-19:75
+269            android:name="com.facebook.ads.AudienceNetworkActivity"
+269-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:16:13-68
+270            android:configChanges="keyboardHidden|orientation|screenSize"
+270-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:17:13-74
+271            android:exported="false"
+271-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:18:13-37
+272            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+272-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:19:13-72
+273
+274        <provider
+274-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:21:9-24:40
+275            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+275-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:22:13-75
+276            android:authorities="com.inspireui.fluxstore.AudienceNetworkContentProvider"
+276-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:23:13-82
+277            android:exported="false" />
+277-->[com.facebook.android:audience-network-sdk:5.7.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\6f32f0df61225573d465c72bddf74526\jetified-audience-network-sdk-5.7.1\AndroidManifest.xml:24:13-37
+278
+279        <activity
+279-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+280            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+280-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+281            android:excludeFromRecents="true"
+281-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+282            android:exported="false"
+282-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+283            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+283-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+284        <!--
+285            Service handling Google Sign-In user revocation. For apps that do not integrate with
+286            Google Sign-In, this service will never be started.
+287        -->
+288        <service
+288-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+289            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+289-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+290            android:exported="true"
+290-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+291            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+291-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\386b80f81f491cef0a48d532581f3a52\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+292
+293        <provider
+293-->[com.google.firebase:firebase-common:19.3.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8c1b12101d36a4b3ceeede1038b8a658\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+294            android:name="com.google.firebase.provider.FirebaseInitProvider"
+294-->[com.google.firebase:firebase-common:19.3.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8c1b12101d36a4b3ceeede1038b8a658\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+295            android:authorities="com.inspireui.fluxstore.firebaseinitprovider"
+295-->[com.google.firebase:firebase-common:19.3.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8c1b12101d36a4b3ceeede1038b8a658\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+296            android:exported="false"
+296-->[com.google.firebase:firebase-common:19.3.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8c1b12101d36a4b3ceeede1038b8a658\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+297            android:initOrder="100" />
+297-->[com.google.firebase:firebase-common:19.3.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\8c1b12101d36a4b3ceeede1038b8a658\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+298
+299        <activity
+299-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\291e902624ec8ae3d9dd60adea629c5a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+300            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+300-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\291e902624ec8ae3d9dd60adea629c5a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\291e902624ec8ae3d9dd60adea629c5a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+302            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+302-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\291e902624ec8ae3d9dd60adea629c5a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+303
+304        <meta-data
+304-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\b27e80f2dd44c5f48e600a95a6e7a6de\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+305            android:name="com.google.android.gms.version"
+305-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\b27e80f2dd44c5f48e600a95a6e7a6de\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+306            android:value="@integer/google_play_services_version" />
+306-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\clean\.gradle\caches\transforms-2\files-2.1\b27e80f2dd44c5f48e600a95a6e7a6de\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+307    </application>
+308
+309</manifest>

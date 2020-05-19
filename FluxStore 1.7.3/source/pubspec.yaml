@@ -1,0 +1,157 @@
+name: fstore
+description: Mobile commerce app by Flutter
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.7.3+3001
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  logs:
+    git: https://github.com/pq/logs
+  flutter:
+    sdk: flutter
+  http: 0.12.1
+  html_unescape: 1.0.1+3
+  provider: 4.1.0
+  after_layout: 1.0.7+2
+  font_awesome_flutter: 8.8.1
+  vector_math: 2.0.8
+  carousel_pro: 1.0.0
+  flutter_widget_from_html: 0.3.3+3
+  configurable_expansion_tile: 1.0.0
+  timeago: 2.0.26
+  share: 0.6.4+1
+  validate: 1.7.0
+  country_pickers: 1.2.1
+  shared_preferences: 0.5.7+1
+  firebase_messaging: 6.0.13
+  firebase_analytics: 5.0.11
+  transparent_image: 1.0.0
+  pull_to_refresh: 1.5.8
+  localstorage: 3.0.2+5
+  notification_permissions: 0.4.4
+  flare_splash_screen: 3.0.1
+  rate_my_app: 0.6.0+2
+  page_indicator: 0.3.0
+  intro_slider: 2.2.9
+  url_launcher: 5.4.5
+  extended_image: 0.7.3-dev # if using Flutter Master channel you should upgrade to 0.7.3-dev
+  firebase_core: 0.4.4 # keep these version as there is new issue
+  firebase_auth: 0.15.3 # with the latest firebase https://github.com/FirebaseExtended/flutterfire/issues/2084
+  flutter_webview_plugin: 0.3.11
+  connectivity: 0.4.8+5
+  random_string: 2.0.1
+  google_maps_flutter: 0.5.27+1
+  cached_network_image: 2.2.0+1
+  uuid: 2.0.4
+  uni_links: 0.2.0
+  flutter_staggered_grid_view: 0.3.0
+  auto_size_text: 2.1.0
+  flutter_swiper: 1.1.6
+  flutter_widgets: 0.1.12
+  video_player: 0.10.9+2
+  flutter_spinkit: 4.1.2+1
+  percent_indicator: 2.1.3
+  animated_text_kit: 2.0.1
+  wave: 0.0.8
+  http_auth: 0.2.9
+  firebase_admob: 0.9.3+2
+  facebook_audience_network: 0.5.0
+  pin_code_fields: 3.0.0
+  flutter_facebook_login: 3.0.0
+  webview_flutter: 0.3.21
+  rubber: 0.4.0
+  flutter_localizations:
+    sdk: flutter
+  custom_splash: 0.0.2
+  apple_sign_in: 0.1.0
+  google_sign_in: 4.4.4
+  google_fonts: 1.0.0
+  flutter_statusbarcolor: 0.2.3
+  app_settings: 4.0.0
+  animated_splash: 1.0.0
+  firebase_database: 3.1.5
+  event_bus: 1.1.1
+  country_code_picker: 1.3.12+1
+  flutter_typeahead: 1.8.0
+  flash: 1.3.1
+  flutter_cupertino_date_picker: 1.0.24
+  location: 3.0.2
+  liquid_swipe: ^1.4.3
+  sticky_headers: 0.1.8+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: 0.7.5
+  pedantic: 1.8.0+1 # Analysis
+
+# Run this script to generate the app icon: flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/config/
+    - lib/config/mocks/
+    - lib/config/states/
+    - assets/icons/categories/
+    - assets/icons/tabs/
+    - assets/icons/profile/
+    - assets/icons/payment/
+    - assets/images/
+    - assets/images/country/
+    - assets/images/favicon/
+    - assets/html/
+    - assets/images/background/
+  fonts:
+    - family: MaterialIcons
+      fonts:
+        - asset: assets/fonts/MaterialIcons.ttf
+    - family: Entypo
+      fonts:
+        - asset: assets/fonts/Entypo.ttf
+    - family: FontAwesome
+      fonts:
+        - asset: assets/fonts/FontAwesome.ttf
+    - family: MaterialCommunityIcons
+      fonts:
+        - asset: assets/fonts/MaterialCommunityIcons.ttf
+    - family: Feather
+      fonts:
+        - asset: assets/fonts/Feather.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\src\\flutter\\version sin problemas\\FluxStore 1.7.3\\source\\build\\flutter_facebook_login\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\clean\\.gradle\\caches\\transforms-2\\files-2.1\\b264e8fdb7b1b535292fffcbb0df93d5\\appcompat-1.0.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\src\\flutter\\version sin problemas\\FluxStore 1.7.3\\source\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\clean\\.gradle\\caches\\transforms-2\\files-2.1\\b264e8fdb7b1b535292fffcbb0df93d5\\appcompat-1.0.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

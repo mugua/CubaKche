@@ -1,0 +1,7 @@
+#Sun May 17 16:28:38 EDT 2020
+base.0=C\:\\src\\flutter\\version sin problemas\\FluxStore 1.7.3\\source\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\src\\flutter\\version sin problemas\\FluxStore 1.7.3\\source\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes2.dex

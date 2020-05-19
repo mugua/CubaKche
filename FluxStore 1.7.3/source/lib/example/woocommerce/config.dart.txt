@@ -1,0 +1,19 @@
+export 'config/advertise.dart';
+export 'config/general.dart';
+export 'config/onboarding.dart';
+export 'config/payments.dart';
+export 'config/products.dart';
+export 'config/smartchat.dart';
+
+
+/// Server config REAL
+const serverConfig = {
+  "type": "woo",
+  "url": "https://mstore.io",
+  "consumerKey": "ck_c16d601d14a44c8080418c1ab9336b72ae8faff2",
+  "consumerSecret": "cs_1c11c4d0ee3bef861421bf3622f20f6b49c8497a",
+  "blog":
+  "http://demo.mstore.io", //Your website woocommerce. You can remove this line if it same url
+  "forgetPassword": "http://demo.mstore.io/wp-login.php?action=lostpassword"
+};
+
