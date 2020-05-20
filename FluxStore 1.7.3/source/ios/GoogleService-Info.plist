@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>941477630937-09emj060k3hab6qj6pb6logb9opeqa5b.apps.googleusercontent.com</string>
+	<string>941477630937-30bhbf4g8k3u1or9jscm5uohru58kuls.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.941477630937-09emj060k3hab6qj6pb6logb9opeqa5b</string>
+	<string>com.googleusercontent.apps.941477630937-30bhbf4g8k3u1or9jscm5uohru58kuls</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBc3pzBqoOFJR41Q21BSvRpp2TPECzKtJM</string>
 	<key>GCM_SENDER_ID</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:941477630937:ios:4cc1d6d23ef29351f17fc8</string>
+	<string>1:941477630937:ios:c6b29a11a410167ef17fc8</string>
 	<key>DATABASE_URL</key>
 	<string>https://cubakche-36019.firebaseio.com</string>
 </dict>
